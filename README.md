@@ -1,4 +1,6 @@
 What this is
+
+
 This project sends text wirelessly using light. One Arduino blinks an LED in a controlled way. Another Arduino watches that light using an LDR, reconstructs the bits, turns them back into characters, and shows them on an LCD.
 No radio. No Wi-Fi. Just visible light and timing.
 Call it basic Li-Fi / optical wireless communication. It’s a learning project, not a commercial system.
