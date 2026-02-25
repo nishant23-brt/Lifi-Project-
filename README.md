@@ -8,6 +8,7 @@ The goal isn’t speed or range. The goal is to understand how data becomes bits
 If you get this working, UART, SPI, RF, and real Li-Fi concepts suddenly make more sense.
 
 How it works 
+
 A. Transmitter
 1. Text is entered via the Serial Monitor.
 2. Each character is converted to its 8-bit ASCII form.
