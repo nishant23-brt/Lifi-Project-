@@ -39,25 +39,25 @@ Hardware Used
 6. Breadboard + jumper wires
 
 Key Parameters
-Sampling time: 5 ms
-Communication type: 8-bit serial 
-Medium: Visible light
-Line-of-sight: Required\
+1. Sampling time: 5 ms
+2. Communication type: 8-bit serial 
+3. Medium: Visible light
+4.Line-of-sight: Required
 
 Limitations 
-LDRs are slow  so  low data rate
-Ambient light affects reliability
-Timing is fixed (no clock recovery)
-Short range cant be used for longer range.
+1. LDRs are slow  so  low data rate
+2. Ambient light affects reliability
+3. Timing is fixed (no clock recovery)
+4. Short range cant be used for longer range.
 
 What you actually learn
-Optical modulation basics
-Bit-level communication
-Timing sensitivity
+1. Optical modulation basics
+2. Bit-level communication
+3. Timing sensitivity
 
 Obvious upgrades
-Replace LDR with a photodiode
-Add a comparator (LM358 / LM393)
-Use hardware timers instead of delay()
-Add checksum or parity
-Increase speed safely
+1. Replace LDR with a photodiode
+2. Add a comparator (LM358 / LM393)
+3. Use hardware timers instead of delay()
+4. Add checksum or parity
+5. Increase speed safely
