@@ -10,17 +10,17 @@ If you get this working, UART, SPI, RF, and real Li-Fi concepts suddenly make mo
 How it works 
 
 Transmitter
-Text is entered via the Serial Monitor.
-Each character is converted to its 8-bit ASCII form.
-The LED turns ON and OFF for each bit using a fixed delay.
-A stop condition keeps the receiver in sync.
-A # character marks the end of a message.
+1. Text is entered via the Serial Monitor.
+2. Each character is converted to its 8-bit ASCII form.
+3. The LED turns ON and OFF for each bit using a fixed delay.
+4. A stop condition keeps the receiver in sync.
+5. A # character marks the end of a message.
 
 Receiver
-The LDR senses light intensity.
-Analog values are compared to a threshold.
-Bits are sampled at the same timing interval.
-Characters are reconstructed from the bits.
+1.The LDR senses light intensity.
+2.Analog values are compared to a threshold.
+3.Bits are sampled at the same timing interval.
+4.Characters are reconstructed from the bits.
 
 Output is shown on:
 Serial Monitor
