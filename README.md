@@ -28,12 +28,12 @@ Serial Monitor
 When # is received, the LCD clears.
 
 Hardware Used
-2× Arduino boards
-LED (high brightness preferred)
-LDR
-Resistors (LDR divider)
-16×2 I2C LCD
-Breadboard + jumper wires
+1. 2× Arduino boards 
+2. LED (high brightness preferred)
+3. LDR
+4. Resistors (LDR divider)
+5. 16×2 I2C LCD
+6. Breadboard + jumper wires
 
 Key Parameters
 Sampling time: 5 ms
