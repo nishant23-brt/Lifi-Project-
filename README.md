@@ -25,9 +25,10 @@ B. Receiver
 4. Characters are reconstructed from the bits.
 
 Output is shown on:
-Serial Monitor
-16×2 I2C LCD
-When # is received, the LCD clears.
+
+1. Serial Monitor
+2. 16×2 I2C LCD
+3. When # is received, the LCD clears.
 
 Hardware Used
 1. 2× Arduino boards 
